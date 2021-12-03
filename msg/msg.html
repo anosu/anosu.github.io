@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang=zh_CN>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
+</head>
+<body>
+  <div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      placeholder: '请写下你想说的话～',
+      avatar: 'robohash',
+      serverURL: 'https://msg-puce.vercel.app/',
+    });
+  </script>
+</body>
+</html>
