@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang=zh_CN>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
+</head>
+<body>
+<div class="artplayer-app"></div>
+var art = new Artplayer({
+    container: '.artplayer-app',
+    url: 'http://1.117.8.54:5244/d/K/视频/FSDSS-289%20昔から好きだった幼馴染はNo_1風俗嬢に…%20オプション全乢せ発射無制限で本番セックスしまくった同棲生活3日間%20橋本ありな.mp4',
+});
+</body>
+</html>
