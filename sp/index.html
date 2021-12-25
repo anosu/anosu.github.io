@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
         <style>
           .artplayer-app {
               width: 100%;
@@ -20,5 +21,14 @@
                 url: 'https://alist.jitsu.top/d/本地/2、动画短片/Chinese Schoolgirl paid for sex  more  AsianAmate.mp4',
             });
         </script>
+  <div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      placeholder: '水一水，身体好～',
+      avatar: 'robohash',
+      serverURL: 'https://msg-puce.vercel.app/',
+    });
+  </script>
     </body>
 </html>
