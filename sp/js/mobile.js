@@ -1,7 +1,8 @@
 var art = new Artplayer({
     container: '.artplayer-app',
-    url: 'https://alist.jitsu.top/d/OneDrive/视频/FSDSS-289 昔から好きだった幼馴染はNo_1風俗嬢に… オプション全乢せ発射無制限で本番セックスしまくった同棲生活3日間 橋本ありな.mp4',
+    url: 'https://alist.jitsu.top/d/OneDrive/视频/原神_刻晴 - Good Night Kiss.mp4',
     autoSize: true,
+    setting: true,
     playbackRate: true,
     theme: '#ffad00',
     fullscreen: true,
