@@ -1,6 +1,6 @@
 var art = new Artplayer({
     container: '.artplayer-app',
-    url: 'https://alist.jitsu.top/d/OneDrive/视频/原神_刻晴 - Good Night Kiss.mp4',
+    url: 'http://1.117.8.54:5244/d/K/视频/里番 リアルエロゲシチュエーション！/[ピンクパイナップル]リアルエロゲシチュエーション！2 THE ANIMATION 第2巻/[GB][ピンクパイナップル]リアルエロゲシチュエーション！2 THE ANIMATION 第2巻[AVC-1080P].mp4',
     autoSize: true,
     setting: true,
     screenshot: true,
