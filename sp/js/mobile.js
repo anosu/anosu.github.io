@@ -3,6 +3,7 @@ var art = new Artplayer({
     url: 'https://alist.jitsu.top/d/OneDrive/视频/原神_刻晴 - Good Night Kiss.mp4',
     autoSize: true,
     setting: true,
+    screenshot: true,
     playbackRate: true,
     theme: '#ffad00',
     fullscreen: true,
