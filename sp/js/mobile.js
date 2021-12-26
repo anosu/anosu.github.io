@@ -17,15 +17,26 @@ var art = new Artplayer({
     },
     plugins: [
         artplayerPluginDanmuku({
-            danmuku: '/assets/sample/danmuku.xml',
-            speed: 5,
-            maxlength: 100,
-            margin: [10, 70],
-            opacity: 1,
-            fontSize: 14,
-            synchronousPlayback: false,
+            danmuku: '/danmu.xml',
         }),
     ],
+    controls: [
+        {
+            position: 'right',
+            html: '发送弹幕',
+            click: function () {
+                var text = prompt('请输入弹幕文本', '弹幕测试文本');
+                if (!text || !text.trim()) return;
+                var color = '#' + Math.floor(Math.random() * 0xffffff).toString(16);
+                art.plugins.artplayerPluginDanmuku.emit({
+                    text: text,
+                    color: color,
+                    border: true,
+                });
+            },
+        },
+    ],
+});
     whitelist: ['*'],
 });
 
