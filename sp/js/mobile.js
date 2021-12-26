@@ -15,27 +15,6 @@ var art = new Artplayer({
         'x5-video-player-fullscreen': false,
         'x5-video-orientation': 'portraint',
     },
-    plugins: [
-        artplayerPluginDanmuku({
-            danmuku: '/danmu.xml',
-        }),
-    ],
-    controls: [
-        {
-            position: 'right',
-            html: '发送弹幕',
-            click: function () {
-                var text = prompt('请输入弹幕文本', '弹幕测试文本');
-                if (!text || !text.trim()) return;
-                var color = '#' + Math.floor(Math.random() * 0xffffff).toString(16);
-                art.plugins.artplayerPluginDanmuku.emit({
-                    text: text,
-                    color: color,
-                    border: true,
-                });
-            },
-        },
-    ],
     whitelist: ['*'],
 });
 
