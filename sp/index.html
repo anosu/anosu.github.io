@@ -31,6 +31,24 @@ html, body {
     <body>
         <div align=center class="artplayer-app"></div>
     <script src="./js/mobile.js"></script>
+    <script>
+        var isLocalhost = Boolean(
+            window.location.hostname === 'localhost' ||
+            window.location.hostname === '[::1]' ||
+            window.location.hostname.match(
+                /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+            )
+        );
+        var _hmt = _hmt || [];
+        (function () {
+            if (!isLocalhost) {
+                var hm = document.createElement('script');
+                hm.src = 'https://hm.baidu.com/hm.js?b6c9b8bafbf5fe7225160101dafbbc7d';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(hm, s);
+            }
+        })();
+    </script>
   <div id="waline"></div>
   <script>
     Waline({
