@@ -15,6 +15,17 @@ var art = new Artplayer({
         'x5-video-player-fullscreen': false,
         'x5-video-orientation': 'portraint',
     },
+    plugins: [
+        artplayerPluginDanmuku({
+            danmuku: '/assets/sample/danmuku.xml',
+            speed: 5,
+            maxlength: 100,
+            margin: [10, 70],
+            opacity: 1,
+            fontSize: 14,
+            synchronousPlayback: false,
+        }),
+    ],
     whitelist: ['*'],
 });
 
