@@ -12,7 +12,7 @@ var art = new Artplayer({
         playsInline: true,
         'webkit-playsinline': true,
         'x5-video-player-type': 'h5',
-        'x5-video-player-fullscreen': true,
+        'x5-video-player-fullscreen': false,
         'x5-video-orientation': 'portraint',
     },
     whitelist: ['*'],
