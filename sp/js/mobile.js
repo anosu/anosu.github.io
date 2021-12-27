@@ -2,6 +2,7 @@ var art = new Artplayer({
     container: '.artplayer-app',
     url: 'https://alist.jitsu.top/d/OneDrive/视频/里番 リアルエロゲシチュエーション！/[ピンクパイナップル]リアルエロゲシチュエーション！2 THE ANIMATION 第1巻/[GB][ピンクパイナップル]リアルエロゲシチュエーション！2 THE ANIMATION 第1巻[AVC-1080P].mp4',
     autoSize: true,
+    autoplay: true,
     setting: true,
     screenshot: true,
     playbackRate: true,
