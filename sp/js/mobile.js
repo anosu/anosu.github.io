@@ -7,13 +7,11 @@ var art = new Artplayer({
     light: true,
     backdrop: true,
     setting: true,
-    screenshot: true,
     playbackRate: true,
     theme: '#3399FF',
     fullscreen: true,
     miniProgressBar: true,
     moreVideoAttr: {
-        crossOrigin: 'anonymous',
         playsInline: true,
         'webkit-playsinline': true,
         'x5-video-player-type': 'h5',
