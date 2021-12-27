@@ -1,6 +1,6 @@
 var art = new Artplayer({
     container: '.artplayer-app',
-    url: 'https://alist.jitsu.top/d/OneDrive/视频/[Azur_Lane][06][GB][1080p][BDrip].mp4',
+    url: 'https://alist.jitsu.top/d/阿里/Anime/[Azur_Lane][06][1080p][BDrip].mp4',
     poster: 'https://s2.loli.net/2021/12/28/OXfWRaUkB1ZTLPz.jpg',
     autoSize: true,
     autoplay: true,
