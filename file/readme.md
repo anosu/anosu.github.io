@@ -1,6 +1,6 @@
 # <center>湿法炼铜</center>
 
-<div align=center><a href="https://jq.qq.com/?_wv=1027&k=nEmFA8lk" target="_blank"><img width = '120' height ='120' src ="http://47.102.156.132:5244/d/J/Others/logo.png"></a></div>
+<div align=center><a href="https://jq.qq.com/?_wv=1027&k=nEmFA8lk" target="_blank"><img width = '120' height ='120' src ="https://alist.jitsu.top/d/阿里/Others/logo.png"></a></div>
 
 ## <center>群号：920472523</center>
 
