@@ -9,7 +9,7 @@ var art = new Artplayer({
     setting: true,
     screenshot: true,
     playbackRate: true,
-    theme: '#ffad00',
+    theme: '#3399FF',
     fullscreen: true,
     miniProgressBar: true,
     moreVideoAttr: {
