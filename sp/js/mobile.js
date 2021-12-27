@@ -15,6 +15,10 @@ var art = new Artplayer({
         'x5-video-player-fullscreen': false,
         'x5-video-orientation': 'portraint',
     },
+    icons: {
+        loading: '<img src="https://artplayer.org/assets/img/ploading.gif">',
+        state: '<img src="https://artplayer.org/assets/img/state.svg">',
+    },
     whitelist: ['*'],
 });
 
