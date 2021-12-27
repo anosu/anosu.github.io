@@ -13,6 +13,7 @@ var art = new Artplayer({
     fullscreen: true,
     miniProgressBar: true,
     moreVideoAttr: {
+        crossOrigin: 'anonymous',
         playsInline: true,
         'webkit-playsinline': true,
         'x5-video-player-type': 'h5',
