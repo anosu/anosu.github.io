@@ -1,14 +1,14 @@
 var art = new Artplayer({
     container: '.artplayer-app',
     url: 'https://alist.jitsu.top/d/阿里/Anime/[Azur_Lane][06][1080p][BDrip].mp4',
-    poster: 'https://s2.loli.net/2021/12/28/OXfWRaUkB1ZTLPz.jpg',
+    poster: 'https://cdn.jsdelivr.net/gh/anosu/anosu.github.io@main/img/poster.jpg',
     autoSize: true,
     autoplay: true,
     light: true,
     backdrop: true,
     setting: true,
     playbackRate: true,
-    theme: '#3399FF',
+    theme: '#66CCFF',
     fullscreen: true,
     miniProgressBar: true,
     moreVideoAttr: {
