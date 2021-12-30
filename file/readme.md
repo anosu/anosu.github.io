@@ -1,7 +1,7 @@
 # <center>湿法炼铜</center>
 
-<div align=left><h2>横看成岭侧成峰</h2></div>
-div align=right><h2>远近高低各不同</h2></div>
+<div align=left><left>横看成岭侧成峰</left>
+# <right>远近高低各不同</right>
 
 ## <center>群号：920472523</center>
 
