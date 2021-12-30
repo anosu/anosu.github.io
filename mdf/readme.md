@@ -1,10 +1,10 @@
-## <center>湿法炼铜</center>
+# <center>湿法炼铜</center>
 
-<div align=left><h3>横看成岭侧成峰</h3>
-<div align=right><h3>远近高低各不同</h3>
-<div align=center class="buttons is-centered are-small"><center><p>群号：920472523</p><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
+<div align=left><h2>横看成岭侧成峰</h2>
+<div align=right><h2>远近高低各不同</h2>
+<div align=center class="buttons is-centered are-small"><center><h2>群号：920472523</h2><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
 
-> <center>一般解压密码：@jitsu</center>
+> ## <center>一般解压密码：@jitsu</center>
 
 <div align=center style="overflow-y: hidden;">
     <div class="buttons is-centered are-small">
