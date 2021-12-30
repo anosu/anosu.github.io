@@ -1,6 +1,7 @@
 # <center>湿法炼铜</center>
 
-<div align=center><a href="https://jq.qq.com/?_wv=1027&k=nEmFA8lk" target="_blank"><img width = '120' height ='120' src ="https://alist.jitsu.top/d/阿里/Others/logo.png"></a></div>
+<div align=left><h2>横看成岭侧成峰</h2></div>
+div align=right><h2>远近高低各不同</h2></div>
 
 ## <center>群号：920472523</center>
 
