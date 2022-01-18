@@ -132,7 +132,7 @@ h1{
         <p>BF.1-洛杉矶</p>
 
 		  <a href="javascript:;" onclick="copy()"><div class="copy">复制</div></a>
-		  <input id="input_openid"  type="text" class="inp" />
+
 		  <p id="p2"></p>
 		  
         <p>4TB流量</p>
@@ -202,7 +202,7 @@ function copy() {
 
     var openid= document.getElementById("p1").innerText;
     document.getElementById('p2').innerText = "VPS1复制成功";
-
+    document.getElementById('input_openid').value = openid
     document.getElementById('input_openid').select();
     document.execCommand("Copy");
 
@@ -212,8 +212,8 @@ function copy2() {
 
     var openid= document.getElementById("p3").innerText;
     document.getElementById('p4').innerText = "VPS2复制成功";
-    document.getElementById('input_openid2').value = openid;
-    
+    document.getElementById('input_openid2').value = openid
+    document.getElementById('input_openid2').select();
     document.execCommand("Copy");
 
 }
