@@ -1,6 +1,6 @@
 - `K：OneDrive` 一些本子和小视频，100多G的图包（大部分是限制级）
 ---
-- `S：SharePoint` 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](https://one.jitsu.top/sp/)
+- `S：SharePoint` 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](http://1.117.8.54:5000/sp/)
 ---
 - `G：谷歌网盘` 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G`Konachan`图包以及几百G小视频
 ---
@@ -8,7 +8,7 @@
 ---
 - `J：私人文件` 仅供本人访问
 ---
-> 阿里云盘帐号被封-_-||
+
 <div align=center class="buttons is-centered are-small"><center><h2>群号：920472523</h2><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
 
 <div align=center><center><h2>一般解压密码：@jitsu</h2></center></div>
