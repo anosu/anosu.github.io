@@ -10,7 +10,7 @@
 ---
 - `P：PikPak` 种子下载存放处
 ---
-- `E,A,Z：E5` 闲置，需要子号可以联系我
+- `E,A,Z：Office365 E5` 闲置，需要子号可以联系我
 
 <div align=center class="buttons is-centered are-small"><center><h2>群号：920472523</h2><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
 
