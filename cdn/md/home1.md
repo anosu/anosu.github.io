@@ -24,19 +24,19 @@
             </span>
             <span>Q群</span>
         </a>
-        <a class="button is-dark donate" href="http://47.102.156.132/关于我/" target="_blank" title="Dark Mode">
+        <a class="button is-dark donate" href="https://index.jitsu.top/about/" target="_blank" title="Dark Mode">
             <span class="icon is-small">
                 <i class="fa-solid fa-info-circle"></i>
             </span>
             <span>关于</span>
         </a>
-        <a class="button is-warning donate" href="https://jitsu.top" target="_blank" title="湿法炼铜">
+        <a class="button is-warning donate" href="https://jitsu.top/v" target="_blank" title="湿法炼铜">
             <span class="icon is-small">
                 <i class="fa-solid fa-house"></i> 
             </span>
             <span>主页</span>
         </a>
-        <a class="button is-success donate" href="https://jitsu.top/web" target="_blank" title="IDM下载">
+        <a class="button is-success donate" href="https://index.jitsu.top" target="_blank" title="IDM下载">
             <span class="icon is-small">
                 <i class="fa-solid fa-bars"></i>
             </span>
