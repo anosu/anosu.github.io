@@ -1,10 +1,10 @@
-- <font coler="#FFB6C1">OneDrive-EDU</font> 一些本子和小视频，100多G的图包（大部分是限制级）<br>
-- <font coler="#FFB6C1">OneDrive-SP</font> 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](http://1.117.8.54:5000/sp/)<br>
-- <font coler="#FFB6C1">Google Drive</font> 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G`Konachan`图包以及几百G小视频<br>
-- <font coler="#FFB6C1">Anosu</font> 本地文件，仅供本人访问<br>
-- <font coler="#FFB6C1">AliDrive</font> 仅供本人访问<br>
-- <font coler="#FFB6C1">PikPak</font> 种子下载存放处<br>
-- <font coler="#FFB6C1">OneDrive-E5</font> 闲置，需要子号可以联系我
+- <font color="#FFB6C1">OneDrive-EDU</font> 一些本子和小视频，100多G的图包（大部分是限制级）<br>
+- <font color="#FFB6C1">OneDrive-SP</font> 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](http://1.117.8.54:5000/sp/)<br>
+- <font color="#FFB6C1">Google Drive</font> 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G`Konachan`图包以及几百G小视频<br>
+- <font color="#FFB6C1">Anosu</font> 本地文件，仅供本人访问<br>
+- <font color="#FFB6C1">AliDrive</font> 仅供本人访问<br>
+- <font color="#FFB6C1">PikPak</font> 种子下载存放处<br>
+- <font color="#FFB6C1">OneDrive-E5</font> 闲置，需要子号可以联系我
 
 <div align=center class="buttons is-centered are-small"><center><h2>群号：920472523</h2><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
 
