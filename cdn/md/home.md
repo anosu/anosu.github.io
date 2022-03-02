@@ -38,3 +38,5 @@
         </a>
     </div>
 </div>
+![留言板](https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=13&title=留言板)
+![访问次数](https://count.getloli.com/get/@jitsu?theme=gelbooru
