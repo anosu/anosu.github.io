@@ -39,5 +39,5 @@
     </div>
 </div>
 <br>
-<img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=13&title=留言板" />
+<a href="https://chat.getloli.com/room/@jitsu"><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=13&title=留言板" /></a>
 <img src="https://count.getloli.com/get/@jitsudrive?theme=gelbooru" />
