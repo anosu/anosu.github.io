@@ -39,6 +39,6 @@
     </div>
 </div>
 <br>
+<iframe src="https://chat.getloli.com/room/@jitsu"></iframe>
 <a href="https://chat.getloli.com/room/@jitsu"><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=13&title=留言板(点击进入)" /></a>
-<iframe id="myid" src="https://chat.getloli.com/room/@jitsu"></iframe>
 <img src="https://count.getloli.com/get/@jitsudrive?theme=gelbooru" />
