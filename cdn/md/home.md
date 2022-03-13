@@ -40,5 +40,5 @@
 </div>
 <br>
 <center><iframe id="chat" frameborder="0" scrolling="no" src="https://chat.getloli.com/room/@jitsu"></iframe></center>
-<a href="https://chat.getloli.com/room/@jitsu"><center><img width="100%" src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=16&title=留言板(点击进入)" /></center></a>
+<a href="https://chat.getloli.com/room/@jitsu"><center><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=16&title=留言板(点击进入)" /></center></a>
 <center><img src="https://count.getloli.com/get/@jitsudrive?theme=gelbooru" /></center>
