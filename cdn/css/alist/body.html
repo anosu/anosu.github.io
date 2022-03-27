@@ -1,0 +1,21 @@
+<script>
+    new ClipboardJS(".btn"), document.documentElement.addEventListener("touchstart", (function(e) {
+        e.touches.length > 1 && e.preventDefault()
+    }), {
+        passive: !1
+    });
+    let lastTouchEnd = 0;
+    document.documentElement.addEventListener("touchend", (function(e) {
+        var t = Date.now();
+        t - lastTouchEnd <= 300 && e.preventDefault(), lastTouchEnd = t
+    }), {
+        passive: !1
+    });
+</script>
+<div id="bg"></div>
+<script src="//api.itggg.cn/liive2d/autoload.js"></script>
+<script>
+    localStorage.setItem("modelId", "7"),
+        localStorage.setItem("modelTexturesId", "3");
+</script>
+<footer align="center"><a href="https://icp.gov.moe/?keyword=20222330" target="_blank">萌ICP备20222330号</a></footer>
