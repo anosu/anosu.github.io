@@ -16,7 +16,7 @@
 <!-- Header --> 
     <header id="header"> 
         <div class="logo"> 
-            <img src="https://tva1.sinaimg.cn/large/005JLeAwgy1gz1bwir1vbj30hs0hsdiq.jpg" class="logo"> 
+            <img src="https://tva1.sinaimg.cn/large/005JLeAwgy1gz1bwir1vbj30hs0hsdiq.jpg" class="logo lazy"> 
         </div> 
         <div class="content"> 
             <div class="inner"> 
@@ -54,8 +54,8 @@
     <!-- Intro --> 
         <article id="intro"> 
             <h2 class="major">Introductions</h2> <span class="image main">
-            <!--<img src="https://api.miaomc.cn/image/get?1" alt=""></span>-->
-            <img src="https://iw233.cn/api/pc.php?1&size=mw690" alt=""></span> 
+            <!--<img src="https://api.miaomc.cn/image/get?1" class="lazy" alt=""></span>-->
+            <img src="https://iw233.cn/api/pc.php?1&size=mw690" class="lazy" alt=""></span> 
             <p>世界很大，相遇即是缘分。人生很短，失去才觉珍贵。希望我们不会为自己的过去后悔——</p> 
             <div align="right">
                 <a href="#work">查看说明</a>
@@ -64,8 +64,8 @@
         <!-- Work --> 
         <article id="work"> 
             <h2 class="major">Instructions</h2> <span class="image main">
-            <img src="https://api.miaomc.cn/image/get?2" alt=""></span> 
-            <!--<img src="https://iw233.cn/api/pc.php?2&size=mw690" alt=""></span>-->
+            <img src="https://api.miaomc.cn/image/get?2" class="lazy" alt=""></span> 
+            <!--<img src="https://iw233.cn/api/pc.php?2&size=mw690" class="lazy" alt=""></span>-->
             <p>这里有一些网站，此处是一些说明：<br>
             网站名录：我收藏的部分网站（你可能需要科学上网）<br>
             一个博客：暂时没什么用处，鸽鸽鸽……<br>
@@ -81,8 +81,8 @@
         <!-- About --> 
         <article id="about"> 
             <h2 class="major">Interactions</h2> <span class="image main">
-            <img src="https://api.miaomc.cn/image/get?3" alt=""></span> 
-            <!--<img src="https://iw233.cn/api/pc.php?3&size=mw690" alt=""></span>-->
+            <img src="https://api.miaomc.cn/image/get?3" class="lazy" alt=""></span> 
+            <!--<img src="https://iw233.cn/api/pc.php?3&size=mw690" class="lazy" alt=""></span>-->
             <p>如有需要咨询的问题，随时可以联系我（虽然不一定会回(〜￣▽￣)〜）</p> 
             <p style="display:block;text-align:right;">QQ：730716745</p> 
         </article> 
@@ -101,5 +101,11 @@
 <script src="https://jitsu.oss-cn-beijing.aliyuncs.com/home/js/breakpoints.min.js"></script> 
 <script src="https://jitsu.oss-cn-beijing.aliyuncs.com/home/js/util.js"></script> 
 <script src="https://jitsu.oss-cn-beijing.aliyuncs.com/home/js/main.js"></script>  
+<script src="https://cdnjs.loli.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script>
+	$("img.lazy").lazyload({
+	   effect : "fadeIn"
+	});
+</script>
 </body>
 </html>
