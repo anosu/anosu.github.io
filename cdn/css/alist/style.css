@@ -27,6 +27,7 @@ html {
     border-radius: 15px !important;
     box-shadow: unset !important
 }
+
 .chakra-ui-light .main-box,
 .chakra-ui-light .readme-box {
     background-color: rgba(255, 255, 255, .8) !important
