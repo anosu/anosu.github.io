@@ -4,10 +4,6 @@
     font-family: 'ZCOOL XiaoWei', serif
 }
 
-div.footer.css-3m0ceo {
-    display: none !important
-}
-
 #root,
 .App,
 body,
@@ -27,14 +23,13 @@ html {
     box-shadow: unset !important
 }
 
-.chakra-ui-light .main-box,
-.chakra-ui-light .readme-box {
-    background-color: rgba(255, 255, 255, .8) !important
-}
-
 .readme-box {
     border-radius: 15px !important;
     box-shadow: unset !important
+}
+.chakra-ui-light .main-box,
+.chakra-ui-light .readme-box {
+    background-color: rgba(255, 255, 255, .8) !important
 }
 
 body {
@@ -63,11 +58,6 @@ body {
 
 a:hover {
     color: #f9cfec !important
-}
-
-.css-g9cw6v a,
-.footer span {
-    display: none !important
 }
 
 .foot {
@@ -119,7 +109,7 @@ dibu {
     -ms-transition: background-color 2.5s ease-in-out;
     transition: background-color 2.5s ease-in-out .75s;
     -ms-transition-delay: .75s;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(https://jitsu.oss-cn-beijing.aliyuncs.com/home/img/overlay.png);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(https://tvax1.sinaimg.cn/large/005JLeAwgy1h0wg0qof1pj30e80e80xh.jpg);
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
