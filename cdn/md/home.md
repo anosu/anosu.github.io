@@ -24,7 +24,7 @@
             </span>
             <span>关于</span>
         </a>
-        <a class="button is-warning donate" href="https://jitsu.top/v" target="_blank" title="湿法炼铜">
+        <a class="button is-warning donate" href="https://jitsu.top" target="_blank" title="湿法炼铜">
             <span class="icon is-small">
                 <i class="fa-solid fa-house"></i> 
             </span>
