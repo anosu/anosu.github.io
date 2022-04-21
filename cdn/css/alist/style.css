@@ -126,7 +126,7 @@ dibu {
     -webkit-transition: -webkit-transform 325ms ease-in-out, -webkit-filter 325ms ease-in-out;
     -ms-transition: -ms-transform 325ms ease-in-out, -ms-filter 325ms ease-in-out;
     transition: transform 325ms ease-in-out, filter 325ms ease-in-out;
-    background-image: url(https://iw233.cn/API/pc.php);
+    background-image: url(https://iw233.cn/api.php?sort=pc);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ dibu {
         -webkit-transition: -webkit-transform 325ms ease-in-out, -webkit-filter 325ms ease-in-out;
         -ms-transition: -ms-transform 325ms ease-in-out, -ms-filter 325ms ease-in-out;
         transition: transform 325ms ease-in-out, filter 325ms ease-in-out;
-        background-image: url(https://iw233.cn/API/mp.php);
+        background-image: url(https://iw233.cn/api.php?sort=mp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
