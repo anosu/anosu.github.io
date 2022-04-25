@@ -30,7 +30,7 @@ html {
 
 .chakra-ui-light .main-box,
 .chakra-ui-light .readme-box {
-    background-color: rgba(255, 255, 255, .8) !important
+    background-color: rgba(255, 255, 255, .75) !important
 }
 
 body {
