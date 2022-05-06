@@ -54,8 +54,8 @@
     <!-- Intro --> 
         <article id="intro"> 
             <h2 class="major">Introductions</h2> <span class="image main">
-            <!--<img src="https://api.miaomc.cn/image/get?1" class="lazy" alt=""></span>-->
-            <img src="https://iw233.cn/api.php?sort=pc&1" class="lazy" alt=""></span>
+            <img src="https://api.miaomc.cn/image/get?1" class="lazy" alt=""></span>
+            <!--<img src="https://iw233.cn/api.php?sort=pc&1" class="lazy" alt=""></span>-->
             <!--<img src="https://api.ixiaowai.cn/api/api.php" class="lazy" alt="">-->
             <!--<img src="https://api.mtyqx.cn/api/random.php" class="lazy" alt="">-->
             <p>世界很大，相遇即是缘分。人生很短，失去才觉珍贵。希望我们不会为自己的过去后悔——</p> 
@@ -108,17 +108,6 @@
 	$("img.lazy").lazyload({
 	   effect : "fadeIn"
 	});
-</script>
-<script type="text/javascript">
-        window.onload = function () {
-            ImageSrc();
-        }
-        function ImageSrc() {
-            var imgs = document.getElementsByClassName("lazy")[0].getElementsByTagName("img");
-            for (var i = 0, l = imgs.length; i < l; i++) {
-                imgs[i].src = imgs[i].src.replace("large", "mw1024");
-            }
-        }
 </script>
 </body>
 </html>
