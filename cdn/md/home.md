@@ -9,7 +9,3 @@
 <div align=center><center><h2>群号：920472523</h2><button id="copy" class="chakra-stack button" data-clipboard-text="920472523">点击复制</button></center></div>
 
 <div align=center><center><h2>一般解压密码：@jitsu</h2></center></div>
-
-<br>
-<a href="https://chat.getloli.com/room/@jitsu"><center><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=16&title=留言板(点击进入)" /></center></a>
-
