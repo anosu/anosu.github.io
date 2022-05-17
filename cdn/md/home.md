@@ -13,4 +13,4 @@
 <br>
 <a href="https://chat.getloli.com/room/@jitsu"><center><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=16&title=留言板(点击进入)" /></center></a>
 <center><img src="https://count.getloli.com/get/@jitsudrive?theme=rule34" /></center>
-<iframe src="https://msg-anosu.vercel.app"></iframe>
+<iframe height="100%" src="https://msg-anosu.vercel.app"></iframe>
