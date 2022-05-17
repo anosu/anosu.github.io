@@ -3,42 +3,14 @@
 - <font color="#FFA0B4"><code>Google-Drive</code></font><br> 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G的Konachan图包以及几百G小视频和Galgame<br>
 - <font color="#FFA0B4"><code>Anosu</code></font><br> 本地文件，仅供本人访问<br>
 - <font color="#FFA0B4"><code>AliDrive</code></font><br> 仅供本人访问<br>
-- <font color="#FFA0B4"><code>PikPak</code></font><br> 种子下载存放处<br>
+- <font color="#FFA0B4"><code>PikPak</code></font><br> 种子下载存放处,视频资源（懂的都懂）<br>
 - <font color="#FFA0B4"><code>OneDrive-E5</code></font><br> 闲置，需要子号可以联系我
 
-<div align=center class="buttons is-centered are-small"><center><h2>群号：920472523</h2><button class="btn button is-primary donate" data-clipboard-text="920472523">点击复制</button><span class="icon is-small"></span></center></div>
+<div align=center><center><h2>群号：920472523</h2><button type="button" id="copy" class="chakra-stack button" data-clipboard-text="920472523">点击复制</button></center></div>
 
 <div align=center><center><h2>一般解压密码：@jitsu</h2></center></div>
 
-<div align=center style="overflow-y: hidden;">
-    <div class="buttons is-centered are-small">
-        <a class="button is-info donate" href="https://jq.qq.com/?_wv=1027&k=W7OQDny2" target="_blank" title="交流群">
-            <span class="icon is-small">
-                <i class="fa-brands fa-qq"></i>
-            </span>
-            <span>Q群</span>
-        </a>
-        <a class="button is-dark donate" href="https://index.jitsu.top/about/" target="_blank" title="Dark Mode">
-            <span class="icon is-small">
-                <i class="fa-solid fa-info-circle"></i>
-            </span>
-            <span>关于</span>
-        </a>
-        <a class="button is-warning donate" href="https://jitsu.top" target="_blank" title="湿法炼铜">
-            <span class="icon is-small">
-                <i class="fa-solid fa-house"></i> 
-            </span>
-            <span>主页</span>
-        </a>
-        <a class="button is-success donate" href="https://index.jitsu.top" target="_blank" title="IDM下载">
-            <span class="icon is-small">
-                <i class="fa-solid fa-bars"></i>
-            </span>
-            <span>名录</span>
-        </a>
-    </div>
-</div>
 <br>
 <a href="https://chat.getloli.com/room/@jitsu"><center><img src="https://chat.getloli.com/room/@jitsu/svg?width=600&height=280&limit=20&theme=light&fontSize=16&title=留言板(点击进入)" /></center></a>
 <center><img src="https://count.getloli.com/get/@jitsudrive?theme=rule34" /></center>
-
+<iframe src="https://msg-anosu.vercel.app"></iframe>
