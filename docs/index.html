@@ -48,6 +48,7 @@
                 <li><a href="https://dev.iw233.cn/api.php?sort=random" target="_blank"><i class="fas fa-image"></i>看点涩图</a></li> 
             </ul> 
         </nav> 
+    <div id="app"></div>
     </header>
     <!-- Main --> 
     <div id="main">
@@ -108,6 +109,26 @@
 	$("img.lazy").lazyload({
 	   effect : "fadeIn"
 	});
+</script>
+<script src="https://jsdelivr.pai233.top/npm/cplayer/dist/cplayer.min.js"></script>
+<script>
+  let player = new cplayer({
+    element: document.getElementById('app'),
+    playlist: [
+      {
+        src: '歌曲资源链接...',
+        poster: '封面链接...',
+        name: '歌曲名称...',
+        artist: '歌手名称...',
+        lyric: '歌词...',
+        sublyric: '副歌词，一般为翻译...'
+      },
+      {
+        ...
+      },
+      ......
+    ]
+  })
 </script>
 </body>
 </html>
