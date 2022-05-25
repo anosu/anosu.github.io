@@ -50,7 +50,7 @@ button.chakra-button.css-squyht {
 
 .chakra-breadcrumb__list li,
 .chakra-breadcrumb__list li a {
-    color: #000 !important
+    color: pink !important
 }
 
 .css-neion {
