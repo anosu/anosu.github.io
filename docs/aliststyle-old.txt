@@ -1,0 +1,191 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jitsu.top/css/button.css">
+<link rel="preconnect" href="https://alioss.xiamoqwq.com">
+<script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.9/clipboard.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+<!--<script src="https://cdnjs.loli.net/ajax/libs/vConsole/3.9.5/vconsole.min.js"></script>-->
+<style>
+@font-face {
+    font-family: AllFont;
+    src: url(https://alioss.xiamoqwq.com/font/emmmm.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+*:not([class*=icon]):not(i) {
+    font-family: AllFont !important
+}
+
+#root,
+.App,
+body,
+html {
+    min-height: 70vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 1% !important
+}
+
+.chakra-ui-light .main-box,
+.chakra-ui-light .readme-box {
+    background-color: rgba(255, 255, 255, .75) !important
+}
+
+.main-box {
+    border-radius: 15px !important;
+}
+
+.readme-box {
+    border-radius: 15px !important;
+    box-shadow: unset !important
+}
+
+button.chakra-button.css-19sxzqs,
+button.chakra-button.css-1s44hm6,
+button.chakra-button.css-squyht {
+    color: pink !important
+}
+
+.chakra-breadcrumb__list li,
+.chakra-breadcrumb__list li a {
+    color: #000 !important
+}
+
+.css-neion {
+    color: #ffb6c1 !important
+}
+
+.chakra-stack button {
+    color: #fff !important
+}
+
+.chakra-stack .list-title p,
+.overlay button {
+    color: #ffb6c1 !important
+}
+
+a:hover {
+    color: #f9cfec !important
+}
+
+div.footer.css-3m0ceo {
+    display: none !important
+}
+
+.foot {
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+#copy {
+    background-color:pink!important;
+    border-radius: 10px !important
+}
+
+#bg {
+    -webkit-backface-visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1
+}
+
+#bg:after,
+#bg:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#bg:before {
+    -moz-transition: background-color 2.5s ease-in-out .75s;
+    -webkit-transition: background-color 2.5s ease-in-out .75s;
+    -ms-transition: background-color 2.5s ease-in-out;
+    transition: background-color 2.5s ease-in-out .75s;
+    -ms-transition-delay: .75s;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(https://jitsu.oss-cn-beijing.aliyuncs.com/home/img/overlay.png);
+    background-size: auto, 256px 256px;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    z-index: 2
+}
+
+#bg {
+    -moz-transition: -moz-transform 325ms ease-in-out, -moz-filter 325ms ease-in-out;
+    -webkit-transition: -webkit-transform 325ms ease-in-out, -webkit-filter 325ms ease-in-out;
+    -ms-transition: -ms-transform 325ms ease-in-out, -ms-filter 325ms ease-in-out;
+    transition: transform 325ms ease-in-out, filter 325ms ease-in-out;
+    background-image: url(https://dev.iw233.cn/api.php?sort=pc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1
+}
+
+@media screen and (max-width:960px) {
+    #bg {
+        -moz-transition: -moz-transform 325ms ease-in-out, -moz-filter 325ms ease-in-out;
+        -webkit-transition: -webkit-transform 325ms ease-in-out, -webkit-filter 325ms ease-in-out;
+        -ms-transition: -ms-transform 325ms ease-in-out, -ms-filter 325ms ease-in-out;
+        transition: transform 325ms ease-in-out, filter 325ms ease-in-out;
+        background-image: url(https://api.vore.top/api/RandBG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1
+    }
+}
+</style>
+
+<div style="z-index:0" class="overlay css-4c85rg">
+    <div style="margin-bottom:150px;" class="chakra-stack css-pb5a2h">
+        <span class="css-0">
+            <button type="button" onclick="display()" class="chakra-button css-12ww9mm" aria-label="移除背景">
+                <i class="chakra-icon css-i1hv63 fas fa-image" aria-hidden="true" height="1em" width="1em">
+                </i>
+            </button>
+        </span>
+    </div>
+</div>
+<div id="bg"></div>
+<footer align="center"><a href="https://icp.gov.moe/?keyword=20221458" target="_blank">萌ICP备20221458号</a></footer>
+<script src="https://myhkw.cn/api/player/165254043390" id="myhk" key="165254043390" m="1"></script>
+<script>
+new ClipboardJS(".btn"), document.documentElement.addEventListener("touchstart", (function(e) {
+    e.touches.length > 1 && e.preventDefault()
+}), {
+    passive: !1
+});
+let lastTouchEnd = 0;
+document.documentElement.addEventListener("touchend", (function(e) {
+    var t = Date.now();
+    t - lastTouchEnd <= 300 && e.preventDefault(), lastTouchEnd = t
+}), {
+    passive: !1
+});
+
+function display() {
+    var target = document.querySelector("#bg");
+    if (target.style.display == "none") {
+        target.style.display = ""
+    } else {
+        target.style.display = "none"
+    }
+}
+</script>
+<!--<script type="text/javascript">
+let vConsole = new VConsole();
+</script>-->
+<script type="text/javascript" src="https://cdn.jitsu.top/js/ajax.js"></script>

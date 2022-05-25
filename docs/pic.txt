@@ -1,0 +1,25 @@
+https://api.vore.top/api/RandBG
+https://img.moehu.org/
+
+<script type="text/javascript">
+var bodyBgs = []; //创建一个数组变量来存储背景图片的路径
+bodyBgs[0] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEBXidCwaDpiiZPbSdg7aQ6jjKqjf3lz5N1E07qXm.bPpSWxwaaN86R.l5W3aXEdMbGQlpcoDXd4hr20bXPQeACo!/r";
+bodyBgs[1] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEK3z9yDT4t3Htx9PEOsY41ghexKT3i*m5lxgmH*iHIkneEu1R1Fu*iqHw0F6MDpUDH1iZGBnhhz75JEiotJLU.Y!/r";
+bodyBgs[2] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEPkHTprmSbpqjwz*sEYIxU7517mxD9NZRM7U3dnqsYJP5DzwVIebfn4Dxl.ra3Dauky6OAu3C5YZ7p8GDkfZ5.8!/r";
+bodyBgs[3] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEKpHJV3xjrqatW3*6qcA3R4Qu5wsP6HNUpNREvREY6C.ox31HSwTWyLOdEh3qMGaXoKVlSSIRqxH1sJtHwLDIcw!/r";
+bodyBgs[4] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrELf6TQCHQu9lTeA9rbCq1.ypUhzUZWU9NG03jwb6IrP0pzGLWyJ61wFOUJPnxbtjy1sa8YKB*D67SbSdX2F1NrE!/r";
+bodyBgs[5] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrENiC*11mz5D6W3124WLyhQXHEPjTwbrNKFrUlExwtK6vvmAMaGeuRGb9.dfoy*seTFzyW1qZAm*Mjdm19enXt.c!/r";
+bodyBgs[6] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEB0Vpr5OICNGsJsAn7*FFoDfSs*XLMxwbfzrs1hJT23dIgyM.KgXW1gBXwnklyMdJMM6iGQP.uifvnKEu35acKQ!/r";
+bodyBgs[7] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEB8mJDQtrTZYd1HGfeM302dkhttIr*4U7DDNuBorYvRDHQGoBNdQUuPMNaYg66cknIgW5GZ6*c*4Xrpbu3D.3eA!/r";
+bodyBgs[8] = "https://r.photo.store.qq.com/psc?/V519Rqd20EQv9X4c0frI0qZQfb3zWR9X/TmEUgtj9EK6.7V8ajmQrEOD55wb.jKNPfLSWdvIZmnLgxlAJZtrVnXKhiBQOcaQ.HOItAcgQT9tdhgF0BMYmNRQ56QmbLUFraiL8fAO8cYQ!/r";
+// 定时输出随机背景图
+var int = self.setInterval("clock()", 5000);
+function clock() {
+	var randomBgIndex = Math.round(Math.random() * 8);
+	document.body.style.background = "url(" + bodyBgs[randomBgIndex] + ") fixed";
+}
+document.write('<body style="background:#f5f5f5 url(/img/bg.svg) center/cover no-repeat;">');
+// 刷新输出随机背景图
+// var randomBgIndex = Math.round(Math.random() * 8);
+// document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') fixed;</style>');
+</script>
