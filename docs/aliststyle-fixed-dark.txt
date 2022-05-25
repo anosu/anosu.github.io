@@ -48,11 +48,6 @@ button.chakra-button.css-squyht {
     color: pink !important
 }
 
-.chakra-breadcrumb__list li,
-.chakra-breadcrumb__list li a {
-    color: pink !important
-}
-
 .css-neion {
     color: #ffb6c1 !important
 }
