@@ -27,8 +27,7 @@ if($min == 'false'){
 $url = 'https://i.pixiv.re/img-original/img/'.$result.'';
 } else {
 $prefix = strtok($result, '.');
-$suffix = strchr($result, '.');
-$url = 'https://i.pixiv.re/img-master/img/'.$prefix.'_master1200'.$suffix.'';
+$url = 'https://i.pixiv.re/img-master/img/'.$prefix.'_master1200.jpg';
 }
 } else {
 // 定义常规内容
