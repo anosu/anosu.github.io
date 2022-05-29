@@ -1,6 +1,6 @@
 {
   "functions": {
-    "img/index.php": {
+    "api/img.php": {
       "runtime": "vercel-php@0.3.1",
       "excludeFiles": "{test/**}",
       "memory": 256,
