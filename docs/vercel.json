@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/img/index.php": {
-      "runtime": "vercel-php@0.3.2"
+    "api/*.php": {
+      "runtime": "vercel-php@0.5.0"
     }
   },
   "routes": [
