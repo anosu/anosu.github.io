@@ -4,7 +4,7 @@ $sort = !empty($_GET['sort']) ? $_GET['sort'] : 'all' ;
 // 存储数据的文件
 $filename = ''.$sort.'.txt';
 if(!file_exists($filename)) {
-    die('指定sort为空或不存在');
+    die('指定sort不存在');
 }
 // 读取整个数据文件
 $data = file_get_contents($filename);
@@ -14,9 +14,24 @@ $data = explode(PHP_EOL, $data);
 $result = $data[array_rand($data)];
 // 去除多余的换行符（解决获取空值问题
 $result = str_replace(array("\r","\n","\r\n"), '', $result);
+// 定义r18内容
 if($sort == 'r18'){
-$url = 'https://pixiv.re/'.$result.'.png';
+// 判断是否为略缩图
+$min_arr = array('true', 'false');
+$min = !empty($_GET['min']) ? $_GET['min'] : 'true' ;
+if(!in_array($min, $min_arr)){
+	$min = 'false';
+}
+// 输出原图或略缩图链接，默认略缩图
+if($min == 'false'){
+$url = 'https://i.pixiv.re/img-original/img/'.$result.'';
 } else {
+$prefix = strtok($result, '.');
+$suffix = strchr($result, '.');
+$url = 'https://i.pixiv.re/img-master/img/'.$prefix.'_master1200'.$suffix.'';
+}
+} else {
+// 定义常规内容
 $size_arr = array('large', 'mw2048', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb150', 'thumb180', 'thumbnail', 'orj360', 'orj480', 'square');
 $size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;
 $server = rand(1,4);
