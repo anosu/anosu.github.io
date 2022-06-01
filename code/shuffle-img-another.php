@@ -22,7 +22,7 @@ $size = !empty($_GET['size']) ? $_GET['size'] : 'regular' ;
 if(!in_array($size, $size_arr)){
 	$size = 'original';
 }
-$url = 'https://i.loli.best/'.$result.'';
+$url = 'https://i.loli.best/'.$size.'/'.$result.'';
 } else {
 // 定义常规内容
 $size_arr = array('large', 'mw2048', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb150', 'thumb180', 'thumbnail', 'orj360', 'orj480', 'square');
