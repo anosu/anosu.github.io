@@ -930,10 +930,10 @@ input, select, textarea {
                 }
 
 		#header .logo {
-			width: 8rem;
-			height: 8rem;
-			line-height: 8rem;
-			border: solid 2px #ffffff;
+			width: 5.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
+			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1081,16 +1081,6 @@ input, select, textarea {
 				#header > *:before {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
-				}
-
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
-
-				#header .logo .icon:before {
-					font-size: 1.75rem;
 				}
 
 			#header .content .inner {
