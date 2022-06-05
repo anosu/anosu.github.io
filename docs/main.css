@@ -930,10 +930,10 @@ input, select, textarea {
                 }
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			width: 8rem;
+			height: 8rem;
+			line-height: 8rem;
+			border: solid 2px #ffffff;
 			border-radius: 100%;
 		}
 
