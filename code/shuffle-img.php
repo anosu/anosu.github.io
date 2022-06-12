@@ -30,10 +30,12 @@ if(!in_array($size, $size_arr)){
 	$size = 'large';
 }
 }
-if($type == 'json'){
 $num = !empty($_GET['num']) ? $_GET['num'] : '1' ;
-} else {
-$num = 1;
+if($num >= 2){
+	$type = 'json';
+}
+if($num > 100){
+	$num = 100;
 }
 //定义图片数组
 $urls = [];
