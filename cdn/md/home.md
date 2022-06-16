@@ -1,5 +1,5 @@
 - <font color="#FFA0B4"><code>OneDrive-EDU</code></font><br> 一些本子和小视频，100多G的图包（大部分是限制级）<br>
-- <font color="#FFA0B4"><code>OneDrive-SP</code></font><br> 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](https:// one.jitsu.top/sp/)<br>
+- <font color="#FFA0B4"><code>OneDrive-SP</code></font><br> 上传文件夹，此处仅供查看，不提供上传通道，上传请[点此](https://one.jitsu.top/sp/)<br>
 - <font color="#FFA0B4"><code>Google-Drive</code></font><br> 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G的Konachan图包以及几百G小视频和Galgame<br>
 - <font color="#FFA0B4"><code>Anosu</code></font><br> 本地文件，仅供本人访问<br>
 - <font color="#FFA0B4"><code>AliDrive</code></font><br> 仅供本人访问<br>
