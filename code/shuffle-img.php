@@ -12,7 +12,7 @@ $data = file_get_contents($filename);
 $data = explode(PHP_EOL, $data);
 //获取类型和数量
 $type = $_GET['type'];
-if($sort == 'r18'){
+if($sort == 'r18' or 'pixiv'){
 // 定义r18内容
 $type = 'json';
 $text = 'To prevent abuse, r18 always returns json';
@@ -32,7 +32,7 @@ if(!in_array($size, $size_arr)){
 }
 $num = !empty($_GET['num']) ? $_GET['num'] : '1' ;
 if($num >= 2){
-	$type = 'json';
+	$type = json;
 }
 if($num > 100){
 	$num = 100;
@@ -45,7 +45,7 @@ do {
 $result = $data[array_rand($data)];
 // 去除多余的换行符（解决获取空值问题
 $result = str_replace(array("\r","\n","\r\n"), '', $result);
-if($sort == 'r18'){
+if($sort == 'r18' or 'pixiv'){
 
 $value = explode('_',$result);
 $url = 'https://'.$proxy.'/'.$size.'/'.$value[0].'/'.$value[1].'';
