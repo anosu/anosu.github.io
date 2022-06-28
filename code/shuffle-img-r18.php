@@ -12,10 +12,28 @@ $data = file_get_contents($filename);
 $data = explode(PHP_EOL, $data);
 //获取类型和数量
 $type = $_GET['type'];
-if($type == 'json'){
-$num = !empty($_GET['num']) ? $_GET['num'] : '1' ;
+if($sort == 'r18' || $sort == 'pixiv' || $sort == 'jitsu'){
+// 定义r18内容
+$proxy = !empty($_GET['proxy']) ? $_GET['proxy'] : 'i.loli.best' ;
+$size_arr = array('original', 'regular', 'small', 'thumb', 'mini');
+$size = !empty($_GET['size']) ? $_GET['size'] : 'regular' ;
+if(!in_array($size, $size_arr)){
+	$size = 'original';
+}
 } else {
-$num = 1;
+// 定义常规内容
+$size_arr = array('large', 'mw2048', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb150', 'thumb180', 'thumbnail', 'orj360', 'orj480', 'square');
+$size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;
+if(!in_array($size, $size_arr)){
+	$size = 'large';
+}
+}
+$num = !empty($_GET['num']) ? $_GET['num'] : '1' ;
+if($num >= 2){
+	$type = 'json';
+}
+if($num > 100){
+	$num = 100;
 }
 //定义图片数组
 $urls = [];
@@ -25,24 +43,14 @@ do {
 $result = $data[array_rand($data)];
 // 去除多余的换行符（解决获取空值问题
 $result = str_replace(array("\r","\n","\r\n"), '', $result);
-if($sort == 'r18'){
-// 定义r18内容
-$proxy = !empty($_GET['proxy']) ? $_GET['proxy'] : 'i.loli.best' ;
-$size_arr = array('original', 'regular', 'small', 'thumb', 'mini');
-$size = !empty($_GET['size']) ? $_GET['size'] : 'regular' ;
-if(!in_array($size, $size_arr)){
-	$size = 'original';
-}
+if($sort == 'r18' || $sort == 'pixiv' || $sort == 'jitsu'){
+
 $value = explode('_',$result);
 $url = 'https://'.$proxy.'/'.$size.'/'.$value[0].'/'.$value[1].'';
 } else {
-// 定义常规内容
-$size_arr = array('large', 'mw2048', 'mw1024', 'mw690', 'bmiddle', 'small', 'thumb150', 'thumb180', 'thumbnail', 'orj360', 'orj480', 'square');
-$size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;
+
 $server = rand(1,4);
-if(!in_array($size, $size_arr)){
-	$size = 'large';
-}
+
 $url = 'https://tva'.$server.'.sinaimg.cn/'.$size.'/'.$result.'.jpg';
 }
 array_push($urls, $url);
