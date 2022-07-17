@@ -36,7 +36,10 @@ html {
 
 button.chakra-button.css-19sxzqs,
 button.chakra-button.css-1s44hm6,
-button.chakra-button.css-squyht {
+button.chakra-button.css-squyht,
+button.chakra-button.css-1ipdryz,
+button.chakra-button.css-1462zul,
+button.chakra-button.css-1468cli {
     color: #000 !important
 }
 
@@ -53,26 +56,17 @@ button.chakra-button.css-squyht {
     color: #ffb6c1 !important
 }
 
+.chakra-breadcrumb__list {
+    background-color: rgba(255,255,255,.7) !important;
+    border-radius: 10px
+}
+
 a:hover {
     color: #f9cfec !important
 }
 
 div.footer.css-3m0ceo {
     display: none !important
-}
-
-.foot {
-    line-height: 40px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    letter-spacing: 1px
-}
-
-#copy {
-    background-color:pink!important;
-    border-radius: 10px !important
 }
 
 .chakra-ui-light {
