@@ -9,6 +9,6 @@
 - <font color="#FFA0B4"><code>PikPak</code></font><br> 种子下载存放处,视频资源（懂的都懂）<br>
 - <font color="#FFA0B4"><code>OneDrive-E5</code></font><br> 闲置，需要子号可以联系我
 
-<div align=center><center><h2>群号：920472523</h2><button id="copy" class="btn chakra-stack button" data-clipboard-text="920472523">点击复制</button></center></div>
+<div align=center><center><h2>群号：920472523</h2><button id="copy" class="btn chakra-button" data-clipboard-text="920472523">点击复制</button></center></div>
 
 <div align=center><center><h2>一般解压密码：@jitsu</h2></center></div>
