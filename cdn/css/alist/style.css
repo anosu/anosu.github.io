@@ -56,11 +56,6 @@ button.chakra-button.css-1468cli {
     color: #ffb6c1 !important
 }
 
-.chakra-breadcrumb__list {
-    background-color: rgba(255,255,255,.7) !important;
-    border-radius: 10px
-}
-
 a:hover {
     color: #f9cfec !important
 }
