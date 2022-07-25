@@ -3,6 +3,7 @@
 - <font color="#FFA0B4"><code>Google-Drive</code></font><br> 随缘访问，目前未挂代理，仅供查看列表，下载需挂梯子。含500G的Konachan图包以及几百G小视频和Galgame<br>
 - <font color="#FFA0B4"><code>Images</code></font><br> 一刻相册，存放纯图片，6000+张<br>
 - <font color="#FFA0B4"><code>度盘</code></font><br> 个人用来下载一些临时文件，单文件下载不限速<br>
+- <font color="#FFA0B4"><code>Loli</code></font><br> 供某有色金属冶炼群群友使用<br>
 - <font color="#FFA0B4"><code>OSS</code></font><br> 存放网站静态资源，不对外开放<br>
 - <font color="#FFA0B4"><code>Anosu</code></font><br> 本地文件，仅供本人访问<br>
 - <font color="#FFA0B4"><code>AliDrive</code></font><br> 仅供本人访问<br>
